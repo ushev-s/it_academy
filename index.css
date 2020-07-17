@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: grid;
+  grid-gap: 20px;
+  width: 200px;
+  margin-right: 60px;
+}
+
+.method {
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fc4141;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+.result {
+  padding: 30px 15px 15px;
+  width: 250px;
+  min-height: 150px;
+  max-height: 150px;
+  overflow-y: auto;
+  text-align: center;
+  border: 1px red solid;
+}
